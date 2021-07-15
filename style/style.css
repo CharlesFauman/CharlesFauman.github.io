@@ -153,7 +153,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { width: 1075px;
   overflow: hidden;
   margin: 0 auto 0 auto;
-  padding: 0 24px 20px 20px;
+  padding: 24px 24px 20px 20px;
   background: #FFF;} 
 
 .sidebar
@@ -276,17 +276,25 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   border-top: 1px solid #D9D5CF;
   border-bottom: 1px solid #FFF;
   margin: 0 0 20px 0;}
-  
-table
-{ margin: 10px 0 30px 0;}
 
-table tr th, table tr td
-{ background: #3B3B3B;
-  color: #FFF;
-  padding: 7px 4px;
-  text-align: left;}
+.social
+  { color: #5D5D5D; 
+    font: 100% arial, sans-serif;}
+
+/* fontawesome colors */
+.fa-twitter { color: #1da1f2; }
+.fa-youtube { color: #ff0000; }
+.fa-linkedin  { color: #0077b5;}
+.fa-github  {color: #333;}
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  }
   
-table tr td
-{ background: #F0EFE2;
-  color: #47433F;
-  border-top: 1px solid #FFF;}
+
+td {
+    padding:0 1px;
+}
