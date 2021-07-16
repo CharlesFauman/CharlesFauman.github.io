@@ -1,10 +1,13 @@
-# Software Engineering
-## Experience as a Software Engineer on Google Groups Jul '19 - Jun '21
+# Software engineering
+
+## Experience as a software engineer on Google Groups
+### Jul '19 - Jun '21
+
 At Google, I worked Google Groups in the Apps org, with a focus on data pipelining, backend migrations, full stack feature implementations, cross team plugin integrations, and production management. Most of the implementation work was done in Java.
 
 Here are some of the projects I worked on:
 
-### Data Export
+### Data export
 * Owned improvement and maintenance of Google Group's cross-team data export integration
 * Owned preparation, communication, and final AI resolution for a major update of features to Google Groups's data export integration
 * Led launch and approval process up to the director level for this update
@@ -18,13 +21,13 @@ Here are some of the projects I worked on:
 * Co-owned migration of another api across 46 code changes, 11 config changes, and 17 rollout commits, as well as reviewing  48 other changes.
 
 
-### Experimental Design
+### Experimental design
 * Designed an experimental feature across the stack, engaging both technical and managerial expertise.
 * Major co-author to an experimental design with the goal of increasing engagement
 * Design included UX, frontend, backend, and storage development.
 * Worked with team leads, project managers, UX, legal, and privacy to ensure buy-in on all fronts.
 
-### Direct Customer Feature Work
+### Direct customer feature work
 * Designed a customer-specific feature from the ground up
 * Met with the customer, and along with my project manager iterated on potential resolution to their needs.
 * Sole owner and designer of new functionality to support their needs, making use of my previous experience with our external APIs, and working across our stack to design an implementation meeting the needs of the feature.
@@ -32,28 +35,30 @@ Here are some of the projects I worked on:
 
 
 
-## Computer Science Education
+## Computer science education
+### Aug '16 - May '19
+
 I graduated with a Bachelor's of Computer Science from Rensselaer Polytechnic Institute in 2019, averaging a 3.8 GPA over the following classes:
 
 Data Structures, Computer Organization, Foundations of Computer Science, Intro to Algorithms, Computer Algorithms, Principles of Software, Database Systems, Intro to Artificial Intelligence, Natural Language Processing, Software Design and Documentation, Machine Learning From Data, Computational Finance, Programming Languages, Operating Systems, Principles of Program Analysis, Game Architecture
 
 ## Projects
-### Sudoku [Live Demo](/sudoku)
+### Sudoku [Live demo](/sudoku)
 A [p5.js](https://p5js.org/) implementation of sudoku
 
-### Mnist [Live Demo](/mnist_model)
+### Mnist [Live demo](/mnist_model)
 A [p5.js](https://p5js.org/) supported grid, with an mnist model i trained loaded in javascript in the browser. As you draw, the model will guess the number.
 
-### [Apple Worm](https://github.com/CharlesFauman/AppleWorm)
+### [Apple worm](https://github.com/CharlesFauman/AppleWorm)
 A java implementation of the game apple worm, originally from https://www.coolmathgames.com/0-apple-worm
 
-### [Halite 3 Bot](https://github.com/CharlesFauman/halite_3_bot)
+### [Halite 3 bot](https://github.com/CharlesFauman/halite_3_bot)
 Halite 3 was a fun competition, done in 2018. My friend and I each worked on our own bots in python, and then combined our efforts into a java bot. We placed 179 out of 4014 players: https://2018.halite.io/programming-competition-leaderboard?username=CharlesFauman
 
-### [Sudoku Solver](https://github.com/CharlesFauman/sudoku-solver)
+### [Sudoku solver](https://github.com/CharlesFauman/sudoku-solver)
 A sudoku solver written in C++, done by converting the problem into a constraint satisfaction problem and applying a solver.
 
-### [Connect 4 Arena](https://github.com/CharlesFauman/Connect_Four)
+### [Connect 4 arena](https://github.com/CharlesFauman/Connect_Four)
 Created an arena to run tournaments between four bots. My connect four bot can also be found under Programs/Charlie_sourcecode/main.cpp
 
 ### [Pong game](https://github.com/CharlesFauman/SFML)
