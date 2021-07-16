@@ -27,31 +27,31 @@ Computer Algorithms, Intro to Artificial Intelligence, Natural Language Processi
 
 Curated and cleaned a dataset to train a model to take in an english caption and return the best meme image out of 50 that fits with that text, as a solo final project for an NLP course.
 
-## Bonus! some fun youtube channels in..
+## Extra! Some fun youtube channels to learn about..
 
 ## Mathematics
 ### [Stand-up Maths](https://www.youtube.com/user/standupmaths/featured)
-Fun math games, riddles, and puzzles!
+Fun math games, riddles, and puzzles.
 
 ### [Flammable Maths](https://www.youtube.com/channel/UCtAIs1VCQrymlAnw3mGonhw)
-A comedic "Bro-dude" twist with some serious math
+A comedic "Bro-dude" twist with some serious math.
 
 ### [Robert Miles](https://www.youtube.com/channel/UCLB7AzTwc6VFZrBsO2ucBMg)
-AI Safety research overview and though experiemnts
+AI Safety research overview and though experiemnts.
 
 ### [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
-The best intuitive visualizations of core mathematical concepts
+The best intuitive visualizations of core mathematical concepts.
 
 ## Physics:
 ### [PBS Space Time](https://www.youtube.com/channel/UC7_gcs09iThXybpVgjHZ_7g)
-Fun and accessable astrophysics
+Fun and accessable astrophysics.
 
 ### [Sabine Hossenfelder](https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw)
-A counter to popular science by providing accurate scientific analysis of popular science
+A counter to popular science by providing accurate scientific analysis of popular science.
 
 ## Computer science:
 ### [Two Minute Papers](https://www.youtube.com/c/K%C3%A1rolyZsolnai/videos)
-Short videos on new papers in photo, video, and light rendering, and physics and light simulation
+Short videos on new papers in photo, video, and light rendering, and physics and light simulation.
 
 ### [DisneyResearchHub](https://www.youtube.com/channel/UCM42XWqRoruK6bNkgbgoJMw)
-Short videos on animatronic research by Disney
+Short videos on animatronic research by Disney.

@@ -92,13 +92,13 @@ Development in python and python best practices.
 Signal processing, data analysis, algorithms, paradigms, and the history of computing.
 
 ### [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
-h4cking explanations and IT security discussions
+h4cking explanations and IT security discussions.
 
 ### [ThinMatrix](https://www.youtube.com/user/ThinMatrix)
-Full Game development vlogs, from the beginning to end of at least two games so far over the course of years
+Full Game development vlogs, from the beginning to end of at least two games so far over the course of years.
 
 ### [The Cherno](https://www.youtube.com/c/TheChernoProject/featured)
-Game Engine development
+Game Engine development.
 
 ### [The Coding Train](https://www.youtube.com/c/TheCodingTrain/featured)
-Programming UI using the processing library, mainly using p5.js (the javascript version)
+Programming UI using the processing library, mainly using p5.js (the javascript version).
