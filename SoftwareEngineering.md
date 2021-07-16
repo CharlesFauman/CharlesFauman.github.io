@@ -87,7 +87,7 @@ Development in python and python best practices.
 Signal processing, data analysis, algorithms, paradigms, and the history of computing.
 
 ### [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
-h4cking explanations and it security discussions
+h4cking explanations and IT security discussions
 
 ### [ThinMatrix](https://www.youtube.com/user/ThinMatrix)
 Full Game development vlogs, from the beginning to end of at least two games so far over the course of years
