@@ -15,6 +15,17 @@ Total Quant + Verbal: 326
 Analytical Writing: 4
 Analytical Writing (Percentile): 57
 
+## Projects
+
+### NLP Meme Project
+#### [paper](/MemeCaptionCategorization.pdf)
+
+#### [code](https://github.com/CharlesFauman/NLP_meme_project)
+
+
+
+Curated and cleaned a dataset to train a model to take in an english caption and return the best meme image out of 50 that fits with that text, as a solo final project for an NLP course.
+
 ## Bonus! Some fun Youtube Channels in..
 
 ## Mathematics
