@@ -18,7 +18,7 @@ Boosted  a student’s understanding of the fundamentals of creating data struct
 Engaged kids in fun and educational subjects over the summer, including chess and Scratch
 
 
-## Huzzah! Some fun youtube channels that do a great job teaching in an engaging way
+## Huzzah! Some fun Youtube channels that do a great job teaching in an engaging way
 
 ### [The School of Life](https://www.youtube.com/c/theschooloflifetv/featured)
 Self-help psychology, with a focus on interactions with others

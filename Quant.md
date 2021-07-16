@@ -27,7 +27,7 @@ Computer Algorithms, Intro to Artificial Intelligence, Natural Language Processi
 
 Curated and cleaned a dataset to train a model to take in an english caption and return the best meme image out of 50 that fits with that text, as a solo final project for an NLP course.
 
-## Extra! Some fun youtube channels to learn about..
+## Extra! Some fun Youtube channels to learn about..
 
 ## Mathematics
 ### [Stand-up Maths](https://www.youtube.com/user/standupmaths/featured)
