@@ -8,14 +8,19 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
   <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
-  
+ 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/f84c7aeb2b.js" crossorigin="anonymous"></script>
   <script src="base_script.js"></script>
 
+  <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+  <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+  <!-- Load the element definition -->
+  <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
   <script> 
     window.onload = function(){
-      console.log($('#resume_select').addClass('selected'));
+      console.log($('#cognition_and_philosophy_select').addClass('selected'));
     }
   </script> 
 
@@ -27,11 +32,7 @@
     <div id="site_content">
       <div id="sidebar"></div>
       <div id="content">
-        <h1>Resume</h1>
-        <h1><a href="https://docs.google.com/document/u/1/export?format=pdf&id=18Ie8a4HBrIqLjjFPlRNw2mEc8-Iho0EGr10tTz0JIQQ">download</a></h1>
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vTJP6Ncz3EiQB0e5JFFgzJ33cK5iP0suH4b46iKzg4ag7Ny3hMm8406OePZ3m3F5-nLZHvIl8PNewQl/pub?embedded=true"
-        width = "800" height = "1000"
-        ></iframe>
+        <zero-md src="CognitionAndPhilosophy.md"></zero-md>
       </div>
     </div>
     <div id="footer"></div>

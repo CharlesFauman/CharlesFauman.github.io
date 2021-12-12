@@ -19,13 +19,27 @@ Computer Algorithms, Intro to Artificial Intelligence, Natural Language Processi
 ## Projects
 
 ### NLP meme project
+Curated and cleaned a dataset to train a model to take in an english caption and return the best meme image out of 50 that fits with that text, as a solo final project for an NLP course.
+
 #### [paper](/MemeCaptionCategorization.pdf)
 
 #### [code](https://github.com/CharlesFauman/NLP_meme_project)
 
+#### presentation
+<details><summary>--- show ---</summary>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSpubhfW7-t2eHNNI6N7lSIKlLQ8NKoVqtaZ6c9CCdax1lw97RT1X1XO1rHSoDveA/embed" frameborder="0" width="800" height="488" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</details>
 
+### Detecting Autism Spectrum Disorder with Blood Biomarkers
+<details><summary>--- show ---</summary>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9rhxLjiceYEUsULQJwgD5_6ZuA2eJAZdilTQvyAS02tCGtz0Y6JY4KwizXqnWKrvT-1gW1ub5pINV/embed" frameborder="0" width="800" height="488" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</details>
 
-Curated and cleaned a dataset to train a model to take in an english caption and return the best meme image out of 50 that fits with that text, as a solo final project for an NLP course.
+### Automating Dino Jump
+<details><summary>--- show ---</summary>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtXTJx-bEu2JlYuQxBD-e4MURdeK-E3qtapthF0Fo1uSiTTWpz77lOLY0zj33CNwm0F2Pp0aW3Aqwy/embed" frameborder="0" width="800" height="488" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</details>
+
 
 ## Extra! Some fun Youtube channels to learn about..
 
