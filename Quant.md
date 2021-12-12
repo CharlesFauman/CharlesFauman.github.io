@@ -35,6 +35,11 @@ Curated and cleaned a dataset to train a model to take in an english caption and
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9rhxLjiceYEUsULQJwgD5_6ZuA2eJAZdilTQvyAS02tCGtz0Y6JY4KwizXqnWKrvT-1gW1ub5pINV/embed" frameborder="0" width="800" height="488" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </details>
 
+### Automating Dino Jump
+<details><summary>--- show ---</summary>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtXTJx-bEu2JlYuQxBD-e4MURdeK-E3qtapthF0Fo1uSiTTWpz77lOLY0zj33CNwm0F2Pp0aW3Aqwy/embed" frameborder="0" width="800" height="488" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</details>
+
 
 ## Extra! Some fun Youtube channels to learn about..
 

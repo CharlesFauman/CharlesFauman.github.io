@@ -28,6 +28,9 @@ Intro to Artificial Intelligence, Natural Language Processing, General Psycholog
 ### The Strength of Functionalism
 <a href="https://docs.google.com/document/u/1/export?format=pdf&id=15LXszngQzLzm9hcvEgYiU5v5TPpYm0vqMhVSsPGzZJM">download</a>
 
+### Captain Janeway is a Murderer
+<a href="https://docs.google.com/document/u/1/export?format=pdf&id=1-sii_ngWD1BtEory2GaTTPL-d0VMoK-UfS2l0tl0T3I">download</a>
+
 
 ## And last but not least, some Youtube channels to satiate your metaphysical appetite!
 
