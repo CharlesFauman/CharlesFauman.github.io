@@ -55,6 +55,9 @@ A java implementation of the game apple worm, originally from https://www.coolma
 ### [Halite 3 bot](https://github.com/CharlesFauman/halite_3_bot)
 Halite 3 was a fun competition, done in 2018. My friend and I each worked on our own bots in python, and then combined our efforts into a java bot. We placed 179 out of 4014 players: https://2018.halite.io/programming-competition-leaderboard?username=CharlesFauman
 
+### [Design for an extended replay viewer for Halite III](https://docs.google.com/document/u/1/export?format=pdf&id=1j63a-fCnzurMa3NbujcBgzFIDt8dkd2y3Pdexbjf9AY)
+A fully fleshed out design for adding two new features to [halite III](https://halite.io/)
+
 ### [Sudoku solver](https://github.com/CharlesFauman/sudoku-solver)
 A sudoku solver written in C++, done by converting the problem into a constraint satisfaction problem and applying a solver.
 
@@ -63,6 +66,7 @@ Created an arena to run tournaments between four bots. My connect four bot can a
 
 ### [Pong game](https://github.com/CharlesFauman/SFML)
 A simple pong game written in C++ using the SFML library
+
 
 ## Values
 If I had to list out three words to describe my work ethic, they would be these:
