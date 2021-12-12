@@ -34,5 +34,15 @@ Intro to Artificial Intelligence, Natural Language Processing, General Psycholog
 
 ## And last but not least, some Youtube channels to satiate your metaphysical appetite!
 
-### [TODO_channel](TODO_link)
-TODO_one_sentence_explain
+### [Rational Animations](https://www.youtube.com/c/RationalAnimations)
+Truth-seeking, science, technology, the future, and more. With animations!
+
+### [Closer To Truth](https://www.youtube.com/c/CloserToTruthTV)
+Interviews with philosophers on the nature of reality and being
+
+### [exurb1a](https://www.youtube.com/c/Exurb1a)
+Absurd and creative musings on the terrifying nature of reality
+
+### [Sciencephile the AI](https://www.youtube.com/c/SciencephiletheAI)
+Fun introductions to how philosophy meshes with our understanding of reality
+
