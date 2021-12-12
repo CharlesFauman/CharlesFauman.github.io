@@ -87,7 +87,7 @@ ol li
   height: 202px;}
 
 #logo
-{ width: 898px;
+{ width: 1180px;
   position: relative;
   height: 148px;
   border-bottom: 2px solid #FFF;}
@@ -118,7 +118,7 @@ ol li
   color: #FFF;}
 
 #menubar
-{ width: 898px;
+{ width: 1180px;
   height: 52px;
   padding: 0;
   background: #000;} 
@@ -135,7 +135,7 @@ ul#menu li a
 { letter-spacing: 0.1em;
   font: normal 100% arial, sans-serif;
   display: block; 
-  float: left; 
+  float: center; 
   height: 17px;
   margin: 10px 0 0 10px;
   padding: 9px 26px 6px 26px;
@@ -182,7 +182,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #content
 { text-align: left;
   float: left;
-  width: 595px;
+  width: 800px;
   padding: 0;}
 
 #content ul
@@ -196,7 +196,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   line-height: 1.5em;}
 
 #footer
-{ width: 898px;
+{ width: 1180px;
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
   height: 33px;
   padding: 24px 0 5px 0;
