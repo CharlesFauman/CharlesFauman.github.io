@@ -94,7 +94,7 @@ and impact into the work other teams are doing, and has led to me working on a s
 By the end of Q4 2021, this tool was used by 6 data analysts, with a rotation of one using it full time. Also in Q4 2021, I presented this tool to my manager's colleagues in the data eng org,
 and several managers in the quant org.
 
-### Ongoing impact: (as of Q4 2022)
+#### Ongoing impact: (as of Q4 2022)
 * As of now, in Q4 2022, this tool is still in daily use on the Reference Data team. It is used for both BAU and for adding onging new validations.
 * It currently runs over 150 different validations
 * It has also expanded to be used by the Aggregate & Tick Data team
