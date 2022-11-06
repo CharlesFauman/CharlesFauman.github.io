@@ -4,11 +4,11 @@ At [GResearch](https://www.gresearch.co.uk/), I've gotten to work with some tale
 to onboard new data sources and ensure quality of daily and historic data.
 
 
-### Historic reference data renormalization: Q3-Q4 & ongoing 2022
+### Historic reference data renormalization: Q2-Q4 2022 & ongoing
 * The reference data team, apart from pricing, maintains about 10^8 datapoints (10^5-10^6 underliers, 10^2-10^3 lifetime, 10^1 attributes)
 * We get and store raw data, and then normalize that data into a mssql server (ownership of db is shared between data teams and the dedicated dba team)
 * Sometimes, due to data issues / changes, or improvements/changes in data processing, the normalized data can become inconsistent or incomplete with respect to the raw data
-* This project aims to fix this inconsistency
+* This project aims to fix                            this inconsistency
 
 #### What
 * Note - as of now (2022 Q4), the tooling is complete, but productionization has just started
@@ -53,6 +53,23 @@ A certain use case required feeding back quant-computed pricing data as referenc
 #### Ongoing impact
 * This ETL tool is also being use for my team's historic reference data renormalization work
 * This quant tool is now being scoped for use in validations work, to validate the world more closely to how our consumers see it.
+
+### Automating id changes: Q2 2022
+When instruments change ids (changes in cusip, isin, sedol, ric, bloomberg global id), we need to ensure we capture that, 
+and ensure a consistent internal mapping to the same instrument over time.
+
+
+#### What
+* Turned a fully manual process (UI-based change applier) into a mostly (95%) automated one - some types of corporate actions are harder to automate
+* UI udated the existing kotlin services for the UI to automatically apply the automated changes - no new services were needed.
+* Added validations for correctness of the automated changes, using the validation tool I built up previously (see Validations)
+
+#### Why
+* More timely id changes - sometimes, a critical change is needed with less than 24hr notice - these can break trading if not applied.
+* Saves analyst time
+
+#### Scale
+* about 100 id changes per day, down to just a few per day that are not automated.
 
 
 ### Validations: Q4 2021- Q1 2022
