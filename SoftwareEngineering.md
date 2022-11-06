@@ -1,9 +1,105 @@
 # Software engineering
+## GResearch: Jul '21 - NOW
+At [GResearch](https://www.gresearch.co.uk/), I've gotten to work with some talented engineers and analysts on the reference data team
+to onboard new data sources and ensure quality of daily and historic data.
 
-## Experience as a software engineer on Google Groups
-### Jul '19 - Jun '21
 
-At Google, I worked Google Groups in the Apps org, with a focus on data pipelining, backend migrations, full stack feature implementations, cross team plugin integrations, and production management. Most of the implementation work was done in Java.
+### Historic reference data renormalization: Q3-Q4 & ongoing 2022
+* The reference data team, apart from pricing, maintains about 10^8 datapoints (10^5-10^6 underliers, 10^2-10^3 lifetime, 10^1 attributes)
+* We get and store raw data, and then normalize that data into a mssql server (ownership of db is shared between data teams and the dedicated dba team)
+* Sometimes, due to data issues / changes, or improvements/changes in data processing, the normalized data can become inconsistent or incomplete with respect to the raw data
+* This project aims to fix this inconsistency
+
+#### What
+* Note - as of now (2022 Q4), the tooling is complete, but productionization has just started
+    - We have pushed only 2 feeds so far, in a manual process to ensure correctness.
+* I built a kotlin service to trigger renormalizations of raw data to normalised data on a feed-by-feed basis (feed here is ~an exchange) in csv files
+* I did work to run an existing Kubernetes service, which usually runs one pod, at scale using armada (https://github.com/G-Research/armada), to run hundreds of jobs at once.
+* I built the python etl tool I created (see Cross-team data flow) to watch and injest these files into our database.
+* I worked on a team with 2 other reference data engineers - 1 in Q3, who did most of the work in modifying the exisitng kubernetes service to
+run in a renorm-mode, and 1 in Q4 who is owning a lot of the work on using the tool in production to safely push out real world data, and to ensure a solid rollback strategy. 
+* We're working with two reference data analysts to do checks of data quality on the renorm data.
+
+
+#### Why
+* Historic data is used for simulation of trading strategies
+* Slightly biased or future-looking historical data can lead to drastic under performance in live data
+* A specific issue with the historic data was noted that will be solved with this renorm work
+* General improvements to the historic data will be made with this renorm work.
+
+#### Scale
+* low ~hundreds of feeds, with about ~6 attributes per feed which we have historic raw data for.
+* This service, if we renormed all of these feeds, deals with about ~30% of all non-pricing reference data
+
+
+### Cross-team data flow: Q3-Q4 2022
+Please ask for more information - I can talk more about the work, but can't be too specific on the specific project.
+
+#### What
+* Created the first ever reference data system to automatically flow quant outputs back into the reference data team
+    - Used an existing quant tool for the first time in reference data, which involved solving some technical challenges with cross-org communication
+* Created a general tool for easy-to-write ETL flows in python
+* owned Design, implementation, and productionization
+* worked with other engineers (reference, research, aggregate data, and quant tooling), and the new liquidity cross-org project owner as well as several other stakeholders.
+
+
+#### Why
+A certain use case required feeding back quant-computed pricing data as reference data for consumption by other systems in the business.
+
+#### Immediate impact
+* Initial use case was met in a timely manner
+* Initual use case results are reliable and have automated alerting
+
+#### Ongoing impact
+* This ETL tool is also being use for my team's historic reference data renormalization work
+* This quant tool is now being scoped for use in validations work, to validate the world more closely to how our consumers see it.
+
+
+### Validations: Q4 2021- Q1 2022
+
+#### What
+I built a tool to allow monitoring and suppressing of data quality issues. I chose to build this using Dash and Postgresql, 
+and was able to create and deploy the system to production use by data analysts within Q4, and enable turndown of the existing legacy tool in early Q1. 
+
+I also took ownership and built up a nacent tool to write data quality checks into this system using SQL & python. 
+* This tool is Jupiter notebooks on top of a custom python library that feeds into the above monitoring system and existing alerting & dashboards (Prometheus, graphana, tableau).
+* These notebooks are accessible via voila, and run on config customizable cron schedules on kubernetes.
+* Over the course of Q4 and Q1, I
+    - built in automated SQL integration tests (Record and replay with pytest, using schema reflection to load relevant data, spinning up a dockerized mssql during testing),
+    - enabled shared queries over database calls to different servers (using pandas as intermediate storage), and
+    - enabled specifying alerting in python (by writing effectively dynamic Prometheus queries).
+
+#### Why
+This work has increased our data quality by enabling the effectiveness of data analysis, has had cross-org visibility
+and impact into the work other teams are doing, and has led to me working on a similar cross-org tool in 2022 for quants.
+
+#### Immediate impact
+By the end of Q4 2021, this tool was used by 6 data analysts, with a rotation of one using it full time. Also in Q4 2021, I presented this tool to my manager's colleagues in the data eng org,
+and several managers in the quant org.
+
+### Ongoing impact: (as of Q4 2022)
+* As of now, in Q4 2022, this tool is still in daily use on the Reference Data team. It is used for both BAU and for adding onging new validations.
+* It currently runs over 150 different validations
+* It has also expanded to be used by the Aggregate & Tick Data team
+* I am now working 40% time on creating a similar but different use case tool for one of the quant managers I presented to a year ago, in 2021 Q4.
+* I and other people on reference data now add new validations regularly to validate correctness of new pipelines, to enable automated alerting of errors
+    - I've used this in my Cross-team data flow tool (see above) as well as my historic renorm work (see above)
+
+#### Scale
+* Bulk data - ~ 10^8 datapoints (10^5-10^6 underliers, 10^2-10^3 lifetime, 10^1 attributes)
+* Relevant data - 10^7 (subset of underliers and data required for training, backtesting, and trading)
+* Data inputs ~ 50-100 sources  (Exchange & 3rd party  feeds, files, APIs)
+* Reference Data Validations - 150 validations, written and used by data analysts.\
+* Dashboards - ~10 - 6 Aggregate Data dashboards, 1 dashboard for execution, 3 Reference data dashboards (options, new liquidity data quality, BAU data quality)
+* Quality of data - 10^5 data points flagged at peak in BAU due to underlying data quality issues. We now usually sit around ~100s of BAU issues, plus ~10^3 issues in spikes of new liquidity.
+* Data consumers - the rest of G-Research (100s of quants, engineers, and data analysts), to feed into alphas.
+* Validation / dashboard writers: about 14 engineers and 6 analysts lifetime, and 4 engineers + 3 analysts weekly.
+
+
+## Google Groups: Jul '19 - Jun '21
+At Google, I worked on [Google Groups](https://groups.google.com/) in the Apps org.
+
+Most of the implementation work here was done in Java.
 
 Here are some of the projects I worked on:
 
@@ -35,9 +131,7 @@ Here are some of the projects I worked on:
 
 
 
-## Computer science education
-### Aug '16 - May '19
-
+## Computer science education: Aug '16 - May '19
 I graduated with a Bachelor's of Computer Science from Rensselaer Polytechnic Institute in 2019, averaging a 3.8 GPA over the following classes:
 
 Data Structures, Computer Organization, Foundations of Computer Science, Intro to Algorithms, Computer Algorithms, Principles of Software, Database Systems, Intro to Artificial Intelligence, Natural Language Processing, Software Design and Documentation, Machine Learning From Data, Computational Finance, Programming Languages, Operating Systems, Principles of Program Analysis, Game Architecture
